@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <span>Hello world {count}</span>
-      <button onClick={() => setCount((c) => c + 1)}>click me</button>
+      <button onClick={() => setCount((c) => c + 1)}>click meee</button>
       <div>
         <button onClick={() => setShow((cur) => !cur)}>show lorem</button>
       </div>

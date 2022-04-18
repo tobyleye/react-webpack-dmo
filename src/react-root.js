@@ -14,8 +14,7 @@ function createElement({ id }) {
   document.body.appendChild(element);
   return element;
 }
-
-class Widget {
+export class create {
   constructor() {
     this.root = createRoot(createElement({ id: "okra-root" }));
   }
@@ -24,9 +23,3 @@ class Widget {
     this.root.render(<App />);
   }
 }
-
-let cook = {
-  create: Widget,
-};
-
-new cook.create().open({});
