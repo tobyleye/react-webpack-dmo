@@ -1,0 +1,10 @@
+.container{
+    max-width: 50rem;
+    margin:auto;
+    border: 1px solid green;
+    padding: 30px;
+}
+
+.title {
+    font-size: 2rem;
+}

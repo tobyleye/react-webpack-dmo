@@ -1,0 +1,7 @@
+.container {
+    border: 1px solid pink;
+    padding: 2rem;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
